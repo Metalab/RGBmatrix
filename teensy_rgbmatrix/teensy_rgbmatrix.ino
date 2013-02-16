@@ -59,7 +59,7 @@ int frameBuffer[frameSize];
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(115200); // this is currently at 9600 .. but should be faster in the future .. just dont wonder if your current setup doesn't work out of the box with this baudrate
   Serial.print("running");
   
 
